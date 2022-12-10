@@ -43,6 +43,12 @@
   border-radius: 8px;
 }
 
+.card:active {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px #CDE3EF;
+  border-radius: 8px;
+}
+
 .news__word {
   font-family: 'Nunito';
   font-style: normal;
@@ -100,5 +106,9 @@
 }
 
 .news__ref:hover{
+  color: #FF007A;
+}
+
+.news__ref:active{
   color: #FF007A;
 }

@@ -21,6 +21,16 @@
   }
 }
 
+.pricing__box:active {
+  border: 0.97561px solid #FF007A;
+  border-radius: 8px;
+  .pricing-link {
+    background: #FF007A;
+    border-radius: 32px;
+    color: #fff;
+  }
+}
+
 .pricing__title {
   font-family: 'Nunito';
   font-style: normal;
@@ -110,10 +120,3 @@ ins {
   border: 1px solid #FF007A;
   border-radius: 32px;
 }
-
-// @media only screen and (max-width:993px) {
-//   .pricing__inner{
-//     display: flex;
-//     flex-wrap: wrap;
-//   }
-// }

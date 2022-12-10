@@ -39,6 +39,15 @@
   }
 }
 
+.software__box:active {
+  background-color: #F7F5FF;
+  border-radius: 8px;
+
+  .software__link {
+    color: #FF007A;
+  }
+}
+
 .software__title {
   font-family: 'Nunito';
   font-style: normal;

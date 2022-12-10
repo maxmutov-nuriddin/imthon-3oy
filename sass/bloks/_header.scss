@@ -38,6 +38,12 @@
     opacity: 0.5;
     color: #FFFFFF;
   }
+
+  &:active {
+    text-decoration-line: underline;
+    opacity: 0.5;
+    color: #FFFFFF;
+  }
 }
 
 .burger {
@@ -91,6 +97,10 @@
   color: #FFFFFF;
   border: 1px solid #FFFFFF ;
   &:hover{
+    border: 1px solid #FF007A;
+    color: #FF007A;
+  }
+  &:active{
     border: 1px solid #FF007A;
     color: #FF007A;
   }
