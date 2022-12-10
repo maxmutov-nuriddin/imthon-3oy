@@ -1,0 +1,217 @@
+.header {
+  padding: 70px 0 0 0;
+  background-image: url('../../img/header.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+}
+
+.header__top {
+  text-align: center;
+}
+
+.bt {
+  display: none;
+}
+
+.navbarr {
+  display: inline-block;
+  margin-left: 680px;
+  margin-right: 10px;
+}
+
+.navbar__list {
+  display: inline-block;
+}
+
+.navbar__link {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+
+  &:hover {
+    text-decoration-line: underline;
+    opacity: 0.5;
+    color: #FFFFFF;
+  }
+}
+
+.burger {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar__btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.header__inner {
+  width: 100%;
+  max-width: 737px;
+}
+
+.header__title {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+
+.header__text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  
+}
+
+.btn {
+  padding-right: 40px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF ;
+  &:hover{
+    border: 1px solid #FF007A;
+    color: #FF007A;
+  }
+  &::after{
+    position: absolute;
+    width: 29px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../../img/play.svg');
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: 72%;
+    content: '';
+  }
+}
+
+.modal-body{
+  height: 400px;
+}
+
+.hero{
+  padding: 440px 0 ;
+  background-image: url('../../img/Macbook\ Pro\ 16\ mockup.png');
+  background-repeat: no-repeat;
+  background-position: 1 1;
+  background-size: 100% auto;
+}
+
+@media only screen and (max-width:1400px) {
+  .navbarr {
+    margin-left: 500px;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .hero{
+    padding: 300px 0 ;
+  }
+
+  .navbarr {
+    margin-left: 300px;
+    margin-right: 8px;
+
+  }
+}
+
+@media only screen and (max-width:1000px) {
+  .navbarr {
+    margin-left: 100px;
+    margin-right: 6px;
+
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .hero{
+    padding: 300px 0 ;
+  }
+
+  .header {
+    padding-top: 50px;
+  }
+
+  .navbarr {
+    display: none;
+  }
+
+  .modal-content {
+    background-color: #7E35EB;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .burger {
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  .navbar__btn {
+    display: none;
+  }
+
+  .bt {
+    display: inline-block;
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width:549px) {
+  .hero{
+    // padding: 300px 0 ;
+    padding: 148px 0;
+  }
+  
+  .header {
+    background-image: url('../../img/header-mobile.png');
+    padding-top: 0;
+  }
+
+  .burger {
+    display: inline-block;
+    margin-left: 50px;
+  }
+
+  .bt {
+    display: inline-block;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width:374px) {
+  .burger {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .bt {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+}

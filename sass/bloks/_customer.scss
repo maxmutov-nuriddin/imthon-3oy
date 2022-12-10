@@ -1,0 +1,115 @@
+.customer{
+  background-color: #FCFBFF;
+}
+
+.customer__title {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.customer__text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.person__inside::before {
+  width: 53px;
+  height: 53px;
+  display: inline-block;
+  background-image: url('../../img/icon/stars.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  content: '';
+}
+
+.person__block {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #211F25;
+}
+
+.person__inner::before {
+  width: 53px;
+  height: 53px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  content: '';
+}
+
+.icon1::before {
+  background-image: url('../../img/icon/icon.png');
+}
+
+.icon2::before {
+  background-image: url('../../img/icon/icon2.png');
+}
+
+.icon3::before {
+  background-image: url('../../img/icon/icon3.png');
+}
+
+.person__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.person__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.3638px;
+  line-height: 150%;
+  color: #3D3A41;
+
+}
+
+.bttn__color{
+  color: #FF007A;
+  border: 1px solid #FF007A;
+  border-radius: 50%;
+}
+
+.bttn__color:hover {
+  background-color:
+    #FF007A;
+  color: #fff;
+}
+
+
+@media only screen and (max-width:993px) {
+  .person__block {
+    font-size: 10px;
+  }
+
+  .person__title {
+    font-size: 20px;
+  }
+
+  .person__text {
+    font-size: 10px;
+  }
+}

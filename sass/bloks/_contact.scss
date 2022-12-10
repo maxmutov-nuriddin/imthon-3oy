@@ -1,0 +1,83 @@
+.contact{
+  padding: 100px 0;
+  background-color:  #6B50FF;
+}
+
+.contact__title {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+
+.contact__text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contact__input {
+  border-radius: 50px;
+  width: 100%;
+  max-width: 368px;
+  border: none;
+}
+
+.contact__button {
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  border-radius: 32px;
+  &:hover {
+    background: #FF007A;
+    color: #FFFFFF;
+  }
+}
+
+.content__word {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.content__link{
+  text-decoration: underline;
+}
+
+.content__link:hover{
+  color: #FF007A;
+}
+
+@media only screen and (max-width:617px) {
+  .contact{
+    padding: 0;
+  }
+  .contact__input{
+    width: 100%;
+    max-width: 242px;
+  }
+  .contact__button{
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width:414px) {
+  .contact__input{
+    width: 100%;
+    max-width: 180px;
+  }
+}

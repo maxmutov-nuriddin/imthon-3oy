@@ -1,0 +1,78 @@
+.software__banjo{
+  width: 100%;
+  max-width: 575px;
+}
+
+.software__tit {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.software__word {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: #3D3A41;
+}
+
+.software__box {
+  width: 100%;
+  max-width: 405px;
+  height: 600px;
+}
+
+.software__box:hover {
+  background-color: #F7F5FF;
+  border-radius: 8px;
+
+  .software__link {
+    color: #FF007A;
+  }
+}
+
+.software__title {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.software__text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.software__link {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #211F25;
+}
+
+@media only screen and (max-width:768px) {
+  .software__tit{
+    font-size: 36px;
+  }
+}

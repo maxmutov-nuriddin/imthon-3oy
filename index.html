@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@400;500;600;700;800&family=Roboto&family=Space+Mono:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <img class="w-100 d-sm-none" src="./img/StatusBar.svg" alt="mobile">
+      <div class="header__top align-items-center ">
+        <button class="click navbar__btn bt"><img src="./img/darkm0de.svg" alt="btn"></button>
+        <a href="#"><img src="./img/Logo-head.svg" width="160" height="32" alt="logo"></a>
+        <nav class="navbarr ">
+          <ul class="navbar__item nav">
+            <li class="navbar__list"><a class="navbar__link" href="#">Home</a>
+            </li>
+            <li class="navbar__list mx-3"><a class="navbar__link" href="#">About Us</a>
+            </li>
+            <li class="navbar__list "><a class="navbar__link" href="#">Pricing</a>
+            </li>
+            <li class="navbar__list mx-3"><a class="navbar__link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- <button class="burger" type="button"><img src="./img/menu.svg" alt="burger"></button> -->
+        <button class="clicks navbar__btn"><img src="./img/darkm0de.svg" alt="btn"></button>
+        <button type="button" class="burger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <img src="./img/menu.svg" alt="burger">
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+           aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="./img/Logo-head.svg" alt="logo">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <nav class="navbarr nav mx-auto ">
+                  <ul class="navbar__item">
+                    <li class="navbar__list d-block"><a class="navbar__link" href="#">Home</a>
+                    </li>
+                    <li class="navbar__list d-block my-5"><a class="navbar__link" href="#">About Us</a>
+                    </li>
+                    <li class="navbar__list d-block"><a class="navbar__link" href="#">Pricing</a>
+                    </li>
+                    <li class="navbar__list d-block mt-5"><a class="navbar__link" href="#">Contact Us</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="headedr__bottom text-center pb-5">
+        <div class="header__inner mx-auto mb-5">
+          <h1 class="header__title">Your digital business is in good hands with us!</h1>
+          <p class="header__text">Make your work easier with an integrated ecosystem that lets all departments work
+            properly together.</p>
+        </div>
+        <a class="protection__link px-3 py-2 " href="#">Get Started</a>
+        <!-- <button class="btn rounded-pill">Watch Video</button> -->
+
+        <button type="button" class="btn rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Watch Video
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <iframe src="https://www.youtube.com/embed/lNX9vmwgLuk"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero ">
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="software mb-5 mt-4">
+      <div class="container">
+        <div class="software__banjo mx-auto">
+          <h2 class="software__tit">Software Solutions That Fit Your Needs</h2>
+          <p class="software__word text-center">The features to boost
+            your productivity</p>
+        </div>
+        <div
+          class="d-flex justify-content-center justify-content-sm-center flex-wrap flex-sm-wrap justify-content-lg-between mt-5">
+          <div class=" p-3 text-center software__box">
+            <img src="./img/Group6.svg" class="card-img-top" width="350" height="300" alt="progres">
+            <div class="card-body">
+              <h3 class="card-title software__title">Task Management</h3>
+              <p class="card-text software__text my-4 ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit
+                officia
+                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              <a href="#" class=" software__link">View More</a>
+            </div>
+          </div>
+          <div class=" p-3 text-center software__box">
+            <img src="./img/Frame22.svg" class="card-img-top" width="350" height="300" alt="progres">
+            <div class="card-body">
+              <h3 class="card-title software__title">Automation</h3>
+              <p class="card-text software__text my-4 ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                amet.</p>
+              <a href="#" class=" software__link">View More</a>
+            </div>
+          </div>
+          <div class=" p-3 text-center software__box mx-auto">
+            <img src="./img/Frame29.svg" class="card-img-top" width="350" height="300" alt="progres">
+            <div class="card-body">
+              <h3 class="card-title software__title">Budgeting Tools</h3>
+              <p class="card-text software__text my-4 ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                amet.</p>
+              <a href="#" class=" software__link">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="protection mt-5 pb-5">
+      <div class="container">
+        <div class=" mb-3 p-3">
+          <div class="row d-flex flex-row-reverse g-0 ">
+            <div class=" col-md-6 my-auto">
+              <img src="./img/st.png" class="img-fluid rounded-start" alt="status">
+            </div>
+            <div class=" col-md-6 my-auto">
+              <div class="card-body text-center text-md-start">
+                <h2 class="card-title protection__title fs-4">Easy Advance Protection</h2>
+                <p class="card-text protection__text my-3 mb-5">Use marketing automation to identify hot leads and email
+                  your sales team telling
+                  them to follow up. Nurture and contact leads at the opportune time to maximize.</p>
+                <a class="protection__link py-3 px-5" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-color mb-3 p-3 ">
+          <div class="row g-0 ">
+            <div class=" col-md-6 my-auto">
+              <img src="./img/status2.png" class="img-fluid rounded-start" alt="status2">
+            </div>
+            <div class=" col-md-6 mt-5">
+              <div class="card-body text-center text-md-start">
+                <h2 class="card-title protection__title fs-4">Advance Protection Mode Easy </h2>
+                <p class="card-text protection__text my-3 mb-5">Use marketing automation to identify hot leads and email
+                  your sales team telling them to follow up. Nurture and contact leads at the opportune time to
+                  maximize.</p>
+                <a class="protection__link py-3 px-5" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customer py-4 mb-5">
+      <div class="container">
+        <h2 class="customer__title">Customer testimonials</h2>
+        <p class="customer__text mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div id="carouselExampleIndicators" class="carousel slide carusel1" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item  active person d-flex justify-content-evenly">
+              <div class="person__inside w-25 ">
+                <blockquote class="person__block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon1">
+                  <h3 class="person__title">Brooklyn Simmons</h3>
+                  <p class="person__text text-start">Bank of America</p>
+                </div>
+              </div>
+              <div class="person__inside w-25">
+                <blockquote class="person__block ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon2">
+                  <h3 class="person__title">Darrell Steward</h3>
+                  <p class="person__text text-start">American Airlines Group</p>
+                </div>
+              </div>
+              <div class="person__inside w-25">
+                <blockquote class="person__block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon3">
+                  <h3 class="person__title">Courtney Henry</h3>
+                  <p class="person__text text-start">Johnson & Johnson</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active person d-flex justify-content-evenly">
+              <div class="person__inside w-25 ">
+                <blockquote class="person__block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon1">
+                  <h3 class="person__title">Brooklyn Simmons</h3>
+                  <p class="person__text text-start">Bank of America</p>
+                </div>
+              </div>
+              <div class="person__inside w-25">
+                <blockquote class="person__block ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon2">
+                  <h3 class="person__title">Darrell Steward</h3>
+                  <p class="person__text text-start">American Airlines Group</p>
+                </div>
+              </div>
+              <div class="person__inside w-25">
+                <blockquote class="person__block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon3">
+                  <h3 class="person__title">Courtney Henry</h3>
+                  <p class="person__text text-start">Johnson & Johnson</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active person d-flex justify-content-evenly">
+              <div class="person__inside w-25 ">
+                <blockquote class="person__block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon1">
+                  <h3 class="person__title">Brooklyn Simmons</h3>
+                  <p class="person__text text-start">Bank of America</p>
+                </div>
+              </div>
+              <div class="person__inside w-25">
+                <blockquote class="person__block ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon2">
+                  <h3 class="person__title">Darrell Steward</h3>
+                  <p class="person__text text-start">American Airlines Group</p>
+                </div>
+              </div>
+              <div class="person__inside w-25">
+                <blockquote class="person__block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros
+                  elementum tristique. Duis cursus, mi quis viverra ornare."</blockquote>
+                <div class="person__inner icon3">
+                  <h3 class="person__title">Courtney Henry</h3>
+                  <p class="person__text text-start">Johnson & Johnson</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon  bttn__color" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="bttn__color carousel-control-next-icon " aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing my-5 py-5">
+      <div class="container">
+        <h2 class="pricing__title text-center">Simple and flexible pricing</h2>
+        <p class="pricing__text text-center">Start with Support and build your own custom solution or choose The Suite
+        </p>
+        <div class="pricing__inner d-flex flex-wrap justify-content-center justify-content-md-evenly my-5">
+          <div class=" pricing__box p-3">
+            <div class="card-body text-center">
+              <h3 class="pricing__style">Basic plan</h3>
+              <p class="pricing__mony my-1">$<ins>19</ins>/mo</p>
+              <p class="pricing-words">or $<ins>199</ins> yearly</p>
+              <ul class="pricing__list text-start mt-2 mb-4">
+                <li class="pricing__item icons1 ">Unlimited members</li>
+                <li class="pricing__item icons2 my-2">Unlimited feedback</li>
+                <li class="pricing__item icons3">Weekly team Feedback Friday</li>
+                <li class="pricing__item icons4 my-2">Custom Kudos +9 illustration</li>
+                <li class="pricing__item icons5 ">Team feedback history</li>
+              </ul>
+              <a href="#" class="pricing-link px-5 py-2">Get started</a>
+            </div>
+          </div>
+          <div class=" pricing__box p-3">
+            <div class="card-body text-center">
+              <h3 class="pricing__style">Basic plan</h3>
+              <p class="pricing__mony my-1">$<ins>29</ins>/mo</p>
+              <p class="pricing-words">or $<ins>299</ins> yearly</p>
+              <ul class="pricing__list text-start mt-2 mb-4">
+                <li class="pricing__item icons1 ">Unlimited members</li>
+                <li class="pricing__item icons2 my-2">Unlimited feedback</li>
+                <li class="pricing__item icons3">Weekly team Feedback Friday</li>
+                <li class="pricing__item icons4 my-2">Custom Kudos +9 illustration</li>
+                <li class="pricing__item icons5 ">Team feedback history</li>
+              </ul>
+              <a href="#" class="pricing-link px-5 py-2">Get started</a>
+            </div>
+          </div>
+          <div class=" pricing__box p-3">
+            <div class="card-body text-center">
+              <h3 class="pricing__style">Basic plan</h3>
+              <p class="pricing__mony my-1">$<ins>49</ins>/mo</p>
+              <p class="pricing-words">or $<ins>499</ins> yearly</p>
+              <ul class="pricing__list text-start mt-2 mb-4">
+                <li class="pricing__item icons1 ">Unlimited members</li>
+                <li class="pricing__item icons2 my-2">Unlimited feedback</li>
+                <li class="pricing__item icons3">Weekly team Feedback Friday</li>
+                <li class="pricing__item icons4 my-2">Custom Kudos +9 illustration</li>
+                <li class="pricing__item icons5 ">Team feedback history</li>
+              </ul>
+              <a href="#" class="pricing-link  px-5 py-2">Get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <h2 class="contact__title text-center">Get started a 15-days free trial</h2>
+        <p class="contact__text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+          enim in
+          eros elementum tristique.</p>
+        <form class="text-center mt-5 mb-3" action="https://echo.htmlacademy.ru" method="post">
+          <input type="email" class="contact__input py-3 px-4" placeholder="Enter your email"
+            aria-label="Recipient's useremail">
+          <button class="mx-2 px-3 py-3 contact__button">Sign Up</button>
+        </form>
+        <p class="content__word text-center">By clicking Sign Up you're confirming that you agree with out<a href="#"
+            class="content__link content__word"> Terms and Conditions.</a></p>
+      </div>
+    </section>
+    <section class="news py-5">
+      <div class="container">
+        <div class="news__inner d-flex justify-content-between align-items-center">
+          <div class="news__box">
+            <h2 class="news__title">
+              Recent News
+            </h2>
+            <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          </div>
+          <a class="news__link py-2 px-4" href="#">View all</a>
+        </div>
+        <div class="card-group d-flex flex-wrap justify-content-md-between mt-5">
+          <div class="card">
+            <img src="./img/Image2.png" class="card-img-top" alt="person">
+            <div class="card-body news__div">
+              <p class="d-inline news__word">Social media</p>
+              <p class="d-inline mx-3 news__document">5 min read</p>
+              <h2 class="card-title news__tit mt-2">Our Favorite Productive Thing Is SaaSup</h2>
+              <p class="card-text news__book pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in
+                eros.</p>
+              <a href="#" class="news__ref">Read more</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/Image1.png" class="card-img-top" alt="person">
+            <div class="card-body news__div">
+              <p class="d-inline news__word">Social media</p>
+              <p class="d-inline mx-3 news__document">5 min read</p>
+              <h2 class="card-title news__tit mt-2">The perfect integration for all real time</h2>
+              <p class="card-text news__book pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in
+                eros.</p>
+              <a href="#" class="news__ref">Read more</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/Image.png" class="card-img-top" alt="person">
+            <div class="card-body news__div">
+              <p class="d-inline news__word">Social media</p>
+              <p class="d-inline mx-3 news__document">5 min read</p>
+              <h2 class="card-title news__tit mt-2">Young Startups With SaaSup In Full Throttle</h2>
+              <p class="card-text news__book pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in
+                eros.</p>
+              <a href="#" class="news__ref">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footerr py-5 ">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-md-between">
+        <div class="footer__inner ">
+          <img src="./img/Logo.svg" alt="logo">
+          <ul class="footer__list  d-flex flex-nowrap justify-content-md-between mt-3">
+            <li class="footer__item3 "> <a class="navbar__link" href="#">Home</a></li>
+            <li class="footer__item3  mx-3"> <a class="navbar__link" href="#">About Us</a></li>
+            <li class="footer__item3 "> <a class="navbar__link" href="#">Pricing</a></li>
+            <li class="footer__item3  mx-3"> <a class="navbar__link" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <form class=" mt-5 mb-3" action="https://echo.htmlacademy.ru" method="post">
+            <label class="footer__label d-block text-start mb-2" for="email">Subscribe</label>
+            <input type="email" id="email" class="contact__input footer__input py-2 px-3" placeholder="Enter your email"
+              aria-label="Recipient's useremail">
+            <button class="mx-2 px-3 py-2 contact__button">Sign Up</button>
+          </form>
+          <p class="footer__text d-sm-block d-none">By subscribing you agree to with our<a class="footer__text link"
+              href="#"> Privacy Policy</a></p>
+        </div>
+      </div>
+      <div class="footer__divv my-5"></div>
+      <div class="fotter__flex">
+        <ul class="footer__item2 d-flex justify-content-between">
+          <li class="footer__list"> <a class="navbar__link" href="#"> Privacy Policy</a></li>
+          <li class="footer__list mx-2"> <a class="navbar__link" href="#"> Terms of Service</a></li>
+          <li class="footer__list"> <a class="navbar__link" href="#"> Cookies Settings</a></li>
+        </ul>
+        <div class="footer__tetxt3">
+          <p class="footer__text2"> 2022 airdokan. All right reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+// .pricing__inner{
+//   // d-flex justify-content-md-evenly my-5
+//   margin: 40px 0;
+//   display: flex;
+//   justify-content: space-evenly;
+// }
+
+.pricing__box{
+  border: 0.97561px solid transparent;
+  width: 100%;
+  max-width: 405px;
+}
+
+.pricing__box:hover {
+  border: 0.97561px solid #FF007A;
+  border-radius: 8px;
+  .pricing-link {
+    background: #FF007A;
+    border-radius: 32px;
+    color: #fff;
+  }
+}
+
+.pricing__title {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.person__text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.pricing__style {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+
+.pricing__mony {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+  text-align: center;
+  color: #211F25;
+}
+
+ins {
+  text-decoration: none;
+}
+
+.pricing-words {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.pricing__item {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.pricing__item::before {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  background-image: url('../../img/icon/Vector.svg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: -1px 0;
+  content: '';
+}
+
+.pricing-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.6098px;
+  line-height: 150%;
+  color: #FF007A;
+  border: 1px solid #FF007A;
+  border-radius: 32px;
+}
+
+// @media only screen and (max-width:993px) {
+//   .pricing__inner{
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+// }
